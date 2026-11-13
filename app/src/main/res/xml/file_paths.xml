@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 应用内更新：把私有目录里的安装包共享给系统安装器 -->
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 外部私有 Download 目录（主路径） -->
+    <external-files-path name="update_download" path="Download/" />
+    <!-- 内部 download 目录（无外存时的降级路径） -->
+    <files-path name="update_download_internal" path="download/" />
+</paths>

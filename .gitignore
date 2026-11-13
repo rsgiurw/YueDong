@@ -1,0 +1,55 @@
+# 构建产物
+/build/
+/app/build/
+*.apk
+*.aab
+
+# Gradle / IDE
+.gradle/
+.idea/
+.kotlin/
+*.iml
+local.properties
+.claude/
+.impeccable/
+.cxx/
+.externalNativeBuild
+.DS_Store
+/captures
+
+# 签名密钥（勿提交，务必单独备份）
+*.jks
+keystore.properties
+
+# 第三方参考仓库（与工程无关）
+ui-main/
+skills-main/
+ip-as-logo-skill-main/
+
+# 媒体源料与工具（体积过大，不入库）
+foodimg_raw/
+videos_processed/
+icon_candidates/
+image/
+tools/
+collab/
+qa/
+testrun/
+wm_check/
+
+# 开发期临时文件
+_p_*.png
+_d*.png
+_s*.png
+hv*.png
+plan5*.png
+wm_grid1.png
+ui_tmp.xml
+build_log.txt
+*.py
+capture_pages.sh
+
+# 内部交接文档（本地保留，不对外）
+交接说明*.md*
+交接说明*.bak
+图标生成提示词*.md

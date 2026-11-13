@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  动作教学视频播放视图。
+  surface_type 必须用 texture_view：与普通视图一起合成，返回转场不会留下
+  SurfaceView 那种"穿透式"画面残留（鬼影）。
+-->
+<androidx.media3.ui.PlayerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/player_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:surface_type="texture_view"
+    app:use_controller="false"
+    app:resize_mode="fit"
+    app:shutter_background_color="@android:color/white" />
