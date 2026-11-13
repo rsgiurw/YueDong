@@ -4,6 +4,24 @@
 
 > 定位：个人求职作品集项目 —— 由 AI 编程工具（ZCode）在全流程引导下分阶段开发，从需求确认到架构设计再到编码落地，全程文档可溯（见 [docs/](docs/)）。
 
+## 📱 界面一览
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/images/shot-workout.jpg" width="250"/><br/><sub>今日训练：按激活计划推算当天内容，动作清单+组次</sub></td>
+    <td align="center"><img src="docs/images/shot-library.jpg" width="250"/><br/><sub>动作库：110 个动作按部位分类，支持搜索与自定义</sub></td>
+    <td align="center"><img src="docs/images/shot-exercise.jpg" width="250"/><br/><sub>动作详情：示范动画、发力部位标注、推荐训练量</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/images/shot-diet.jpg" width="250"/><br/><sub>饮食：热量环+三大营养素进度，50+ 食物库按克记录</sub></td>
+    <td align="center"><img src="docs/images/shot-calendar.jpg" width="250"/><br/><sub>打卡日历：出勤与饮食达标一历可见，支持补打卡</sub></td>
+    <td align="center"><img src="docs/images/shot-report-week.jpg" width="250"/><br/><sub>训练报告：体重趋势折线+出勤月历+营养分析（深色模式）</sub></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="3"><img src="docs/images/shot-onboarding.jpg" width="250"/><br/><sub>遮罩式新手引导：首次使用分步讲解核心交互</sub></td>
+  </tr>
+</table>
+
 ## ✨ 功能一览
 
 | 模块 | 功能 |
